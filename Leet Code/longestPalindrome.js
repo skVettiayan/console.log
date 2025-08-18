@@ -46,6 +46,8 @@ console.log(longestPalindrome(s));
 
 
 /*
+
+testing git commit
 var longestPalindrome = function(s) {    
     let len = s.length;
     if(len == 1)
