@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .body {        
+        background-color: #310707;
+        height: 1000px;
+    }
+    .p-10{
+        padding: 13px;
+        margin-left: 5%;
+        /* height: 35px; */
+
+        /* margin-top: 0px; */
+    }
+    .contain{
+        margin-top: 400px !important;
+        margin-left: 400px !important;
+        width: 100%;
+        height: 100%;
+        /* margin-top: 400px !important; */
+    }
+    .contain-active {
+        border: 2px solid red;
+        height: 20px;
+        width: 700px;
+    }
+    .chk-active {
+        /* border: 2px solid red;
+        height: 20px;
+        width: 20px; */
+        border: none;
+        /* background-color: red; */
+        /* margin: 100px; */
+        
+        /* height: 42px;
+        width: 42px; */
+        background-color: #74a7ce;
+        border-radius: 15%;
+        display: inline-block;
+    }
+    .div-block{
+        border-radius: 10px;
+        background-color: rgb(184, 204, 221);
+        width: 66px;
+        margin-left:1%;
+        transition: all 0.2s ease-in;
+    }
+    .div-gap{
+        width: 34px !important;
+        margin-top: 14px;
+    }
+  </style>
+</head>
+<body class="body">
+
+    <div class="row container contain">
+        <div class="row">
+            <!-- <p class="contain-active"></p> -->
+            <div class="col-md-1 div-block" id="divh">
+                <!-- <p class="card" id="H1"></p> -->
+                 <p>
+                 <label class="p-10" id="ph0" for="h0"><input type="checkbox" hidden id="h0" name="h0" value="0">0</label>
+                 <label class="p-10" id="ph1" for="h1"><input type="checkbox" hidden id="h1" name="h1" value="1">1</label>
+                 <label class="p-10" id="ph2" for="h2"><input type="checkbox" hidden id="h2" name="h2" value="2">2</label>
+                 </p>
+            </div>
+            <div class="col-md-1 div-block" id="divhh">            
+                <!-- <p class="card" id="H2"></p> -->
+                <label class="p-10" id="phh0" for="hh0"><input type="checkbox" hidden id="hh0" name="hh0" value="0">0</label>
+                <label class="p-10" id="phh1" for="hh1"><input type="checkbox" hidden id="hh1" name="hh1" value="1">1</label>
+                <label class="p-10" id="phh2" for="hh2"><input type="checkbox" hidden id="hh2" name="hh2" value="2">2</label>
+                <label class="p-10" id="phh3" for="hh3"><input type="checkbox" hidden id="hh3" name="hh3" value="3">3</label>
+                <label class="p-10" id="phh4" for="hh4"><input type="checkbox" hidden id="hh4" name="hh4" value="4">4</label>
+                <label class="p-10" id="phh5" for="hh5"><input type="checkbox" hidden id="hh5" name="hh5" value="5">5</label>
+                <label class="p-10" id="phh6" for="hh6"><input type="checkbox" hidden id="hh6" name="hh6" value="6">6</label>
+                <label class="p-10" id="phh7" for="hh7"><input type="checkbox" hidden id="hh7" name="hh7" value="7">7</label>
+                <label class="p-10" id="phh8" for="hh8"><input type="checkbox" hidden id="hh8" name="hh8" value="8">8</label>
+                <label class="p-10" id="phh9" for="hh9"><input type="checkbox" hidden id="hh9" name="hh9" value="9">9</label>
+            </div>
+            <div class="col-md-1 div-block div-gap" id="">:</div>
+            <div class="col-md-1 div-block" id="divm">            
+                <!-- <p class="card" id="M1"></p> -->
+                <label class="p-10" id="pm0" for="m0"><input type="checkbox" hidden id="m0" name="m0" value="0">0</label>
+                <label class="p-10" id="pm1" for="m1"><input type="checkbox" hidden id="m1" name="m1" value="1">1</label>
+                <label class="p-10" id="pm2" for="m2"><input type="checkbox" hidden id="m2" name="m2" value="2">2</label>
+                <label class="p-10" id="pm3" for="m3"><input type="checkbox" hidden id="m3" name="m3" value="3">3</label>
+                <label class="p-10" id="pm4" for="m4"><input type="checkbox" hidden id="m4" name="m4" value="4">4</label>
+                <label class="p-10" id="pm5" for="m5"><input type="checkbox" hidden id="m5" name="m5" value="5">5</label>
+            </div>
+            <div class="col-md-1 div-block" id="divmm">            
+                <!-- <p class="card" id="M2"></p> -->
+                <label class="p-10" id="pmm0" for="mm0"><input type="checkbox" hidden id="mm0" name="mm0" value="0">0</label>
+                <label class="p-10" id="pmm1" for="mm1"><input type="checkbox" hidden id="mm1" name="mm1" value="1">1</label>
+                <label class="p-10" id="pmm2" for="mm2"><input type="checkbox" hidden id="mm2" name="mm2" value="2">2</label>
+                <label class="p-10" id="pmm3" for="mm3"><input type="checkbox" hidden id="mm3" name="mm3" value="3">3</label>
+                <label class="p-10" id="pmm4" for="mm4"><input type="checkbox" hidden id="mm4" name="mm4" value="4">4</label>
+                <label class="p-10" id="pmm5" for="mm5"><input type="checkbox" hidden id="mm5" name="mm5" value="5">5</label>
+                <label class="p-10" id="pmm6" for="mm6"><input type="checkbox" hidden id="mm6" name="mm6" value="6">6</label>
+                <label class="p-10" id="pmm7" for="mm7"><input type="checkbox" hidden id="mm7" name="mm7" value="7">7</label>
+                <label class="p-10" id="pmm8" for="mm8"><input type="checkbox" hidden id="mm8" name="mm8" value="8">8</label>
+                <label class="p-10" id="pmm9" for="mm9"><input type="checkbox" hidden id="mm9" name="mm9" value="9">9</label>
+            </div>            
+            <div class="col-md-1 div-block div-gap" id="">:</div>
+            <div class="col-md-1 div-block" id="divs">            
+                <!-- <p class="card" id="S1"></p> -->
+                <label class="p-10" id="ps0" for="s0"><input type="checkbox" hidden id="s0" name="s0" value="0">0</label>
+                <label class="p-10" id="ps1" for="s1"><input type="checkbox" hidden id="s1" name="s1" value="1">1</label>
+                <label class="p-10" id="ps2" for="s2"><input type="checkbox" hidden id="s2" name="s2" value="2">2</label>
+                <label class="p-10" id="ps3" for="s3"><input type="checkbox" hidden id="s3" name="s3" value="3">3</label>
+                <label class="p-10" id="ps4" for="s4"><input type="checkbox" hidden id="s4" name="s4" value="4">4</label>
+                <label class="p-10" id="ps5" for="s5"><input type="checkbox" hidden id="s5" name="s5" value="5">5</label>
+            </div>
+            <div class="col-md-1 div-block" id="divss">
+                <!-- <p class="card" id="S2"></p> -->
+                <label class="p-10" id="pss0" for="ss0"><input type="checkbox" hidden id="ss0" name="ss0" value="0">0</label>
+                <label class="p-10" id="pss1" for="ss1"><input type="checkbox" hidden id="ss1" name="ss1" value="1">1</label>
+                <label class="p-10" id="pss2" for="ss2"><input type="checkbox" hidden id="ss2" name="ss2" value="2">2</label>
+                <label class="p-10" id="pss3" for="ss3"><input type="checkbox" hidden id="ss3" name="ss3" value="3">3</label>
+                <label class="p-10" id="pss4" for="ss4"><input type="checkbox" hidden id="ss4" name="ss4" value="4">4</label>
+                <label class="p-10" id="pss5" for="ss5"><input type="checkbox" hidden id="ss5" name="ss5" value="5">5</label>
+                <label class="p-10" id="pss6" for="ss6"><input type="checkbox" hidden id="ss6" name="ss6" value="6">6</label>
+                <label class="p-10" id="pss7" for="ss7"><input type="checkbox" hidden id="ss7" name="ss7" value="7">7</label>
+                <label class="p-10" id="pss8" for="ss8"><input type="checkbox" hidden id="ss8" name="ss8" value="8">8</label>
+                <label class="p-10" id="pss9" for="ss9"><input type="checkbox" hidden id="ss9" name="ss9" value="9">9</label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the current date and time
+        let h1,h2,m1,m2,s1,s2 = 0;
+        setInterval(() => {            
+            var date = new Date();
+            // Date.prototype.addSecs = function (s) {
+            //     this.setTime(this.getTime() + (s * 1000));
+            //     return this;
+            // }
+            // ddte.addSecs(1);
+
+            h1 = padNumber(date.getHours(),2).charAt(0);
+            h2 = padNumber(date.getHours(),2).charAt(1);
+            m1 = padNumber(date.getMinutes(),2).charAt(0);
+            m2 = padNumber(date.getMinutes(),2).charAt(1);
+            s1 = padNumber(date.getSeconds(),2).charAt(0);
+            s2 = padNumber(date.getSeconds(),2).charAt(1);
+            // document.getElementById("H1").innerHTML = h1.toString();
+            [0,1,2].forEach(element => {                
+                document.getElementById("h"+element).checked  = false;
+                document.getElementById("ph"+element).classList.remove('chk-active');
+            });
+            [0,1,2,3,4,5,6,7,8,9].forEach(element => {                
+                document.getElementById("hh"+element).checked  = false;
+                document.getElementById("mm"+element).checked  = false;
+                document.getElementById("ss"+element).checked  = false;                
+                document.getElementById("phh"+element).classList.remove('chk-active');
+                document.getElementById("pmm"+element).classList.remove('chk-active');
+                document.getElementById("pss"+element).classList.remove('chk-active');
+            });
+            
+            [0,1,2,3,4,5].forEach(element => {                
+                document.getElementById("m"+element).checked  = false;
+                document.getElementById("s"+element).checked  = false;
+                document.getElementById("pm"+element).classList.remove('chk-active');
+                document.getElementById("ps"+element).classList.remove('chk-active');
+            });
+
+            document.getElementById("h"+h1).checked  = true;
+            document.getElementById("hh"+h2).checked  = true;
+            document.getElementById("m"+m1).checked  = true;
+            document.getElementById("mm"+m2).checked  = true;
+            document.getElementById("s"+s1).checked  = true;
+            document.getElementById("ss"+s2).checked  = true;
+            //Adding Class
+            
+            document.getElementById("ph"+h1).classList.add('chk-active');
+            document.getElementById("phh"+h2).classList.add('chk-active');
+            document.getElementById("pm"+m1).classList.add('chk-active');
+            document.getElementById("pmm"+m2).classList.add('chk-active');
+            document.getElementById("ps"+s1).classList.add('chk-active');
+            document.getElementById("pss"+s2).classList.add('chk-active');
+
+            [0,1,2].forEach(element => {       
+                if(element = h1)         
+                document.getElementById("divh").style.marginTop = (element*-50)+"px";
+            });
+            [0,1,2,3,4,5,6,7,8,9].forEach(element => {         
+                if(element == h2)       
+                    document.getElementById("divhh").style.marginTop = (element*-50)+"px";
+                if(element == m2)
+                    document.getElementById("divmm").style.marginTop = (element*-50)+"px";
+                if(element == s2)
+                    document.getElementById("divss").style.marginTop = (element*-50)+"px";
+            });
+            [0,1,2,3,4,5].forEach(element => {    
+                if(element == s1)            
+                    document.getElementById("divs").style.marginTop = (element*-50)+"px";
+                if(element == m1)
+                    document.getElementById("divm").style.marginTop = (element*-50)+"px";
+            });
+            
+            // document.getElementById("H2").innerHTML = h2.toString();
+            // document.getElementById("M1").innerHTML = m1.toString();
+            // document.getElementById("M2").innerHTML = m2.toString();
+            // document.getElementById("S1").innerHTML = s1.toString();
+            // document.getElementById("S2").innerHTML = s2.toString();
+        }, 1000);
+
+        function padNumber(number, length) {
+            var str = '' + number;
+            while (str.length < length) {
+                str = '0' + str;
+            }
+            return str;
+        }
+    </script>
+</body>
+</html>
